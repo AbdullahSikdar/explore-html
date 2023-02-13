@@ -1,0 +1,38 @@
+nav :first-child {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+    font-size: 25px;
+}
+
+nav li:hover {
+    background-color: aqua;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdownA:hover {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.dropdown {
+    display: none;
+    background-color: yellow;
+}
+
+
+/* 
+.dropdown:hover {
+    position: absolute;
+    display: block;
+} */
